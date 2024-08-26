@@ -1,0 +1,47 @@
+body{ 
+
+
+}
+h1{
+
+text-align:center;
+color:rgba(255,0,255,0.10);
+
+}
+p{
+color:hsl(250,130%,240%);
+word-spacing:50px;
+image
+}
+#one,#two,#three{
+    color:blue;
+    border-width: 20px 15px 5px 1px ;
+    
+    border-top-style: double;
+    border-color:red;
+    border-top-right-radius: 50px;
+    
+    
+    
+
+}
+.three,.four,.five{
+    color:yellow;
+    
+
+}
+*{
+    color:rgb(205, 255, 220);
+    
+}
+
+ul{
+    border-style:solid ;
+    border-color: brown;
+    margin: 100px 200px 50px 10px;
+}
+h2{
+    color:chartreuse;
+    border-style: solid;
+    padding:50px 100px 150px 10px;
+}
