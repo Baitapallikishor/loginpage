@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    min-height: 200in;
+}
+.one{
+    width:450px;
+    background-color: purple;
+}
+.three{
+    background-color: rgb(255, 0, 64);
+}
+.pas{
+    background-color: rgb(255, 0, 64);
+}
