@@ -11,7 +11,10 @@ color:rgba(255,0,255,0.10);
 p{
 color:hsl(250,130%,240%);
 word-spacing:50px;
-image
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-size:40px;
+font-weight: 700;
 }
 #one,#two,#three{
     color:blue;
@@ -45,3 +48,11 @@ h2{
     border-style: solid;
     padding:50px 100px 150px 10px;
 }
+a:visited{color:brown;}
+a:hover{
+    color:chartreuse;
+}
+a:link{color:blue}
+a:active{color:darkgoldenrod}
+}
+

@@ -1,0 +1,20 @@
+
+* {
+    background-color: #222000;
+    color:#fffffc;
+}
+.name{
+    font-size:1rem;
+    font-weight: 700;
+ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+filter:drop-shadow(10px 10px 10px yellow);
+color:yellow;
+
+
+
+}
+
+
+
+

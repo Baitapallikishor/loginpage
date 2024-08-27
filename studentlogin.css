@@ -3,15 +3,177 @@ body{
     align-items: center;
     justify-items: center;
     text-align: center;
-    min-height: 200in;
+    min-height: 200px;
+
+    margin: 100px 200px;
+    
+    background-color:black;
+    
 }
 .one{
     width:450px;
-    background-color: purple;
-}
-.three{
-    background-color: rgb(255, 0, 64);
-}
+    background-color: rgb(156, 70, 156);
+    border-radius: 20px ;
+    height: 365px;
+    
+    
+  }
+
+#one{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+  }
+
+
 .pas{
-    background-color: rgb(255, 0, 64);
+margin: 20px;
+
+
 }
+.three input{
+    height: 38px;
+    width:270px ;
+    border: 2px solid rgba(255,255,255,0.2);
+border-radius: 40px;
+background-color:purple;
+color:white;
+padding:20px 45px 20px 20px;
+
+
+}
+.pas input{
+    height: 38px;
+    width:270px ;
+    border: 2px solid rgba(255,255,255,0.2);
+border-radius: 40px;
+background-color:purple;
+color:white;
+padding:20px 45px 20px 20px;
+}
+.three input::placeholder{
+    color:white;
+}
+.pas input::placeholder{
+    color:white;
+}
+.login{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.four a{
+    color:white;
+
+}
+.four a:hover{
+    text-decoration: underline;
+
+}
+.six {
+    color:white;
+
+}
+.six label input{
+    margin-right: 30px;
+}
+.registration {
+    width:200px;
+    border-radius: 40px;
+    height:40px
+}
+p{
+    color:white
+}
+
+3312e817298e7;
+
+body{
+    background-color: aqua;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    min-height: 200in;
+    
+    margin-left: 130px;
+}
+.one1{
+    width:450px;
+    background-color: rgb(164, 60, 164);
+    border-radius: 20px ;
+    height: 365px;
+  }
+
+#one1{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+  }
+
+
+.pas1{
+margin: 20px;
+
+
+}
+.three1 input{
+    height: 38px;
+    width:270px ;
+    border: 2px solid rgba(255,255,255,0.2);
+border-radius: 40px;
+background-color:purple;
+color:white;
+padding:20px 45px 20px 20px;
+
+
+}
+.pas1 input{
+    height: 38px;
+    width:270px ;
+    border: 2px solid rgba(255,255,255,0.2);
+border-radius: 40px;
+background-color:purple;
+color:white;
+padding:20px 45px 20px 20px;
+}
+.three1 input::placeholder{
+    color:white;
+}
+.pas1 input::placeholder{
+    color:white;
+}
+.login1{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.four1 a{
+    color:white;
+
+}
+.four1 a:hover{
+    text-decoration: underline;
+
+}
+.six1 {
+    color:white;
+
+}
+.six1 label input{
+    margin-right: 30px;
+}
+.registration1 {
+    width:200px;
+    border-radius: 40px;
+    height:40px;
+    filter:drop-shadow(10px 10pc 10pc green)
+    
+}
+p1{
+    color:white
+}
+
