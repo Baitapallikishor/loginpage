@@ -12,13 +12,14 @@ body{
         margin-top: 200px;
         margin-left: 200px;
         border-radius: 200px;
-        max-width: 350px;
+        max-width: 320px;
+        max-height: 300px;
         
         
         
 }
 #one{
-    width:70px;
+
     font-size: 60px;
 }
     
