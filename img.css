@@ -8,9 +8,11 @@ max-width:70%;
 background-repeat: no-repeat;
 }
 
-
-
-
-.banner{
-    background-image: url("");
+img{
+    filter:grayscale(0%);
 }
+
+img:hover{
+    filter:grayscale(100%);
+}
+
