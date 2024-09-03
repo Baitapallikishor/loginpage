@@ -1,0 +1,56 @@
+*{
+    margin:70px 70px 70px 40px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 50%;
+    border: 10px outset gray;
+
+    animation-name: test;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-delay: 1s;
+    color:red;
+    padding-left: 20px;
+    overflow: hidden;
+    margin-left:30%
+    
+}
+@keyframes test {
+    0% {
+        border-radius: 50%; 
+      }
+      100% {
+        border-radius: 0%; 
+        border-color: chartreuse;
+        background-color: chartreuse;
+        border:solid;
+        
+      }
+    }
+    
+.image {
+    width: 30%;
+    height: auto;
+    animation:image 4s linear infinite;
+  }
+  
+
+  @keyframes image {
+    0% {
+      transform: rotate(0deg); 
+      display: none;
+    }
+    100% {
+      transform: rotate(360deg); 
+    }
+  }
+  
+         
+    
+    
