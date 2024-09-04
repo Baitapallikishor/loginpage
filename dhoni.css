@@ -1,15 +1,18 @@
 *{
     margin:70px 70px 70px 40px;
 }
+body{
+  background-color: black;
+}
 .one{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 500px;
+    height: 180px;
+    width: 180px;
     background-color: black;
     border-radius: 50%;
-    border: 10px outset gray;
+    border: 10px outset rgb(14, 222, 31);
 
     animation-name: test;
     animation-duration: 3s;
@@ -22,6 +25,28 @@
     
 }
 @keyframes test {
+  
+  0% {
+    border-radius:70%;
+  }
+  100% {
+    width:300px;
+    height:300px
+border-radius:0%;
+border:rgb(14, 222, 31);
+background-color: chartreuse;
+
+
+  }
+}
+         
+    
+    
+
+
+
+
+/*@keyframes test {
     0% {
         border-radius: 50%; 
       }
@@ -50,7 +75,4 @@
       transform: rotate(360deg); 
     }
   }
-  
-         
-    
-    
+  */

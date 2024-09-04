@@ -12,7 +12,7 @@ img{
     filter:grayscale(0%);
 }
 
-img:hover{
+img:active{
     filter:grayscale(100%);
 }
 
